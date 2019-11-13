@@ -1,0 +1,7 @@
+rem Archeon // Easy
+On Error Resume Next
+Dim fso, dir
+
+rem Start here, message box for a fatal error. 
+X=MsgBox("Fatal Error: lsass.exe is not found. System will now reboot.", 16, "Fatal Error")
+
